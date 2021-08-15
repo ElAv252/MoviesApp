@@ -1,0 +1,107 @@
+.Header {
+    height: 60px;
+    width: 99.8%;
+}
+
+.NavUl {
+
+}
+
+.NavLi {
+    display: inline;
+    margin-right: 20px;
+}
+
+.LinkTo {
+    text-decoration: none;
+}
+
+.AllProduct {
+    width: 90%;
+    margin: auto;
+}
+
+.Hr {
+    position: static;
+    bottom: -380px;
+    width: 99%;
+}
+
+.FrontCard {
+    float: left;
+    border: 1px solid;
+    width: 250px;
+    margin-right: 25px;
+    margin-top: 15px;
+    border-radius: 7px;
+    box-shadow: 1px 3px 6px black;
+    transition: 0.6s linear;
+    overflow: hidden;
+    height: 350px;
+}
+
+.FullCard{
+    display: inline-block;
+}
+
+.Photo {
+    width: 100%;
+    height: 250px;
+    transition: 1.6s;
+}
+
+.MovieName{
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 15px;
+    transition: 1.6s;
+    position: relative;
+}
+
+.MovieDescription {
+    transition: 1.6s;
+    position: relative;
+}
+
+.GrayShadow{
+    height: 35px;
+    width: 100%;
+    background-color: gray;
+    opacity: 0.9;
+    transition: 1s;
+    position: relative;
+    bottom: 243px;
+    filter: blur(3px);
+}
+
+.GrayShadow:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+.TwoBtn {
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    position: relative;
+    bottom: 276px;
+    display: inline;
+    transition: 1s;
+}
+
+.BackAndDetailsBtn {
+    margin-left: 35px;
+    width: 70px;
+    height: 30px;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+    opacity: 0.8;
+    cursor: pointer;
+    box-shadow: 1px 2px 10px;
+    text-shadow: 2px 2px 5px;
+}
+
+.BackAndDetailsBtn:active {
+    border-style: inset;
+    border-color: rgb(145, 145, 145);
+}
